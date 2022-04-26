@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestEjercicioContarLetras" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-26T11:28:57" hostname="I5-5447" time="0.033">
+<testsuite name="TestEjercicioContarLetras" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-26T11:31:41" hostname="I5-5447" time="0.038">
   <properties/>
-  <testcase name="Test1()" classname="TestEjercicioContarLetras" time="0.033"/>
+  <testcase name="Test1()" classname="TestEjercicioContarLetras" time="0.031"/>
+  <testcase name="Test2()" classname="TestEjercicioContarLetras" time="0.003"/>
+  <testcase name="Test3()" classname="TestEjercicioContarLetras" time="0.002"/>
   <system-out><![CDATA[Test1 realizado
+Test2 realizado
+Test3 realizado
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

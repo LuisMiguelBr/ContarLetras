@@ -12,12 +12,22 @@ public class TestEjercicioContarLetras {
         Assertions.assertEquals(resultadoEsperado,resultado);
         System.out.println("Test1 realizado");
     }
+    @Test
     public void Test2(){
         String prueba=null;
         String resultadoEsperado=null;
         String resultado= EjercicioContarLetras.contarRepeticiones(prueba);
         Assertions.assertEquals(resultadoEsperado,resultado);
         System.out.println("Test2 realizado");
+
+    }
+    @Test
+    public void Test3(){
+        String prueba=" ";
+        String resultadoEsperado="{ =1}";
+        String resultado= EjercicioContarLetras.contarRepeticiones(prueba);
+        Assertions.assertEquals(resultadoEsperado,resultado);
+        System.out.println("Test3 realizado");
 
     }
 
