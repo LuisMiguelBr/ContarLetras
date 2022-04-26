@@ -10,13 +10,21 @@ public class EjercicioContarLetras {
         input=sc.nextLine();
         letras=input.toCharArray();
 
+        contar(letras);
 
 
 
     }
 
 
-    public static void contar(char [] letas){
+    public static void contar(char [] letras){
+        int cont=0;
+
+        for(int i=0; i<letras.length; i++){
+
+
+        }
+
 
 
 
