@@ -5,21 +5,6 @@ import java.util.Scanner;
 public class EjercicioContarLetras {
 
 
-   /* public static void contar(char [] letras){
-        int cont=0;
-
-        for(int i=0; i<letras.length; i++){
-            for(int x=0; x<letras.length; x++){
-                if
-            }
-
-
-        }
-
-
-
-
-    }*/
    public static String contarRepeticiones(String input) {
 
        if (input == null)
