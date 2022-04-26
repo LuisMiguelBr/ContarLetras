@@ -1,26 +1,17 @@
+import java.util.HashMap;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class EjercicioContarLetras {
 
-    public static void main(String []args) {
-        char letras[] = new char[];
-        String input = "";
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Dime un una palabra");
-        input=sc.nextLine();
-        letras=input.toCharArray();
 
-        contar(letras);
-
-
-
-    }
-
-
-    public static void contar(char [] letras){
+   /* public static void contar(char [] letras){
         int cont=0;
 
         for(int i=0; i<letras.length; i++){
+            for(int x=0; x<letras.length; x++){
+                if
+            }
 
 
         }
@@ -28,5 +19,14 @@ public class EjercicioContarLetras {
 
 
 
-    }
+    }*/
+   public static String contarRepeticiones(String input) {
+
+       if (input == null)
+           return null;
+       char [] letras = input.toLowerCase().toCharArray();
+       HashMap<Character, Integer> map = new HashMap<>();
+       for (Character i : letras) {
+
+   }
 }
